@@ -1,0 +1,22 @@
+{"callforpaper":[
+    [
+     "Marketing/Advertising/Public Relations/Radio and Television/Film", 
+     "Cultural Studies: Communication and Culture/Critical and Cultural Studies",
+     "Communication Technology: New Media/Social Media"
+     ],
+     [
+     "Corporate Communication: Identity and Branding/Crisis Issue, Risk and Change Communication", 
+     "Media Ethics/Laws/Policy/Regulations/Media literacy",
+     "Special issues in Communication: Health/ Environment/ Risk/ Innovation/ Children/ Economy/ Politics and Human rights etc."
+     ],
+     [
+     "Health Communication", 
+     "International versus Localization Communication",
+     "Digital Art/ Visual communication"
+     ],
+     [
+     "Organizational Communication", 
+     "Journalism2",
+     "Minorities and Communication"
+     ]
+]}

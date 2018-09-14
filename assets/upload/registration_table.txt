@@ -1,0 +1,24 @@
+{
+  "registration": [
+    [
+      "Delegates",
+      "Early Bird Fee",
+      "Normal Fee"
+    ],
+    [
+      "All Participants (paper presenters)<br>- Thai participants<br>- Oversea participants",
+      "<br>2,000 Bth <br> $60",
+      "<br>3,000 Bth <br> $90"
+    ],
+    [
+      "Students (Must provide ID card)<br>- Thai students<br>- Students from abroad",
+      "<br>1,500 Bth <br> $45",
+      "<br>2,000 Bth <br> $60"
+    ],
+    [
+      "Attendee (attend only)<br>- Thai attendees<br>- Oversea attendees",
+      "<br>1,000 Bth <br> $30",
+      "<br>1,500 Bth <br> $45"
+    ]
+  ]
+}

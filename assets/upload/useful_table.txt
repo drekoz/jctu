@@ -1,0 +1,52 @@
+{
+  "accommodation": [
+    [
+      "No.",
+      "Name",
+      "Address",
+      "Contact"
+    ],
+    [
+      "1",
+      "NAVALAI RIVER RESORT",
+      "45/1 Phra Athit Road, Khao San Road Area, Phra Nakorn, Bangkok",
+      "0-2280-9955"
+    ],
+    [
+      "2",
+      "The Royal River Hotel",
+      "219 Soi Charansanitwong 66/1, Charansanitwong Rd., Bangplad, Bangkok",
+      "0-2422-9222"
+    ],
+    [
+      "3",
+      "New Siam Riverside",
+      "21 Phra A-Thit Road, Chanasongkram, Bangkok",
+      "0-26293536"
+    ],
+    [
+      "4",
+      "Prince Palace Hotel",
+      "488/800 BoBae Tower, Damrongrak Road, Klong Mahanak, Pomprab, Bangkok",
+      "0-2628-1111"
+    ],
+    [
+      "5",
+      "River Side Bangkok",
+      "195 Ratwiti Rd., Bangplad, Bangkok",
+      "0-2883-1588"
+    ],
+    [
+      "6",
+      "The Rotal City Hotel",
+      "800 Boromratchonni Rd., Bangkoknoi, Bangplad, Bangkok",
+      "0-2435-8888"
+    ],
+    [
+      "7",
+      "S.D. Avenue Hotel",
+      "94 Borommarat Chachonnani Road, Bang Bamru, Bang Phlat ,Bangkok",
+      "086-3758877"
+    ]
+  ]
+}

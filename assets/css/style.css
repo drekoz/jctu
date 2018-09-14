@@ -1,0 +1,390 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2016, 10:23:39 PM
+*/
+
+/*
+ * Globals
+ */
+
+/* Links */
+
+
+  @font-face {
+        font-family: "cordia";
+        src: url("../fonts/cordia.ttf") format('truetype');
+    }
+    
+a,
+a:focus,
+a:hover {
+  color: #000;
+}
+
+
+/* Custom default button */
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none;    /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    font-family: "cordia";
+    height: 100%;  
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+/* Menu navigation */
+.header{
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.nav-footer{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+    font-size: 1em;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav  li {
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+
+.nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(103,103,103); 
+  border-bottom: 2px solid transparent;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(0,0,0,.25);
+}
+.nav > .active > a,
+.nav > .active > a:hover,
+.nav > .active > a:focus {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+hr { 
+    margin-bottom: 0px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: rgb(125, 67, 153);
+}
+
+.master-container{
+    background-color: #e0e0e0;
+}
+
+.master-content-container{
+    background-color: #fff;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+.master-content-padding{
+    padding-right: 5em;
+    padding-left:5em;
+}
+.master-content-padding-useful{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+
+.master-content-heading{
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.master-content-sub-heading{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: 600;
+}
+
+.master-content-detail{
+    font-size: 1.6em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.master-content-image{
+    padding: 1em;
+}
+
+.outer-borderess{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+table td, table th {
+  border: 1px solid black;
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+table tbody tr td{
+    font-size: 1.1em;
+    font-weight: 200;
+    height: 5em;
+    text-align: left;
+}
+
+.table-cell-margin{
+    padding:15px;
+}
+
+.no-padding{
+    padding:0px;
+}
+
+.schedule-table{
+    padding: 0px;
+    margin: 0px;
+    border-color: rgb(160,190,255);
+    border-width: 2px;
+    border-collapse: collapse;
+}
+
+.schedule-table>tbody>tr>td, 
+.schedule-table>tbody>tr>th, 
+.schedule-table>tfoot>tr>td, 
+.schedule-table>tfoot>tr>th, 
+.schedule-table>thead>tr>td, 
+.schedule-table>thead>tr>th {
+    border: 2px solid;
+    border-color: rgb(140,168,218);
+}
+
+
+.usefulinfo-table>tbody>tr:nth-of-type(odd) { background-color: #fff; }
+.usefulinfo-table>tbody tr:nth-of-type(even) { background-color: rgb(217,226,243); }
+
+.usefulinfo-table{
+    padding: 0px;
+    margin: 0px;
+    border-color: #000;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.usefulinfo-table>tbody>tr>td, 
+.usefulinfo-table>tbody>tr>th, 
+.usefulinfo-table>tfoot>tr>td, 
+.usefulinfo-table>tfoot>tr>th, 
+.usefulinfo-table>thead>tr>td, 
+.usefulinfo-table>thead>tr>th {
+    border: 1px solid;
+    border-color: #000;
+}
+
+.usefulinfo-table>tbody>tr>th {
+    background-color: #e0e0e0;
+}
+.usefulinfo-table>tbody>tr:nth-of-type(odd) { background-color: #fff; }
+.usefulinfo-table>tbody>tr:nth-of-type(even) { background-color: #fff; }
+.usefulinfo-table>tbody>tr>td:nth-child(1) { color: #fff; background-color: rgb(153,153,153); }
+
+
+.hr-footer{
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
+    margin-bottom: 1em;
+}
+
+.footer-container{
+    background-color:rgb(70,70,70); 
+    color: rgb(180,180,180);
+}
+
+.footer-container-head{
+    color: #fff;
+}
+
+.register-button,
+.register-button:focus,
+.register-button:active,
+.register-button:after,
+.register-button:target,
+.register-button:enabled
+{
+    border-radius: 0;
+    background-color: #7f44ab;
+    width: 100%;
+    margin: 0.5em;
+    color: white;
+    vertical-align: middle;
+}
+
+.register-button:hover{
+    background-color: #563d7c;
+    color: white;
+}
+
+.register-button-font{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.row-centered{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.registration-topic{
+    text-align: left;
+}
+
+.registration-input-head{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.form-check-label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight:100;
+}
+
+.bordered{
+    border:1px solid black;
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width : 1025px) {
+/* Styles */
+.nav-header {
+    float: right!important;
+}
+
+#simple-menu{
+    display: none;
+}
+
+.nav-menu{
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+#table-small{
+    display:none;
+}
+
+}
+
+/* mobile tablet*/
+@media (max-width:1024px) {
+    #nav{
+        display: none;
+        text-decoration: none;
+        padding-top: 1em;
+    }
+    
+    #simple-menu{
+            float:right;
+    }
+    
+    #simple-menu,
+    #nav:hover{
+        text-decoration: none;
+    }
+    
+    .nav-menu{
+    padding-top: 1.3em;
+}
+
+#table-normal{
+    display: none;
+}
+
+    table tbody tr td{
+        height: 0em;
+    }
+    
+    .master-content-padding-useful{
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+}
+
+  
+

@@ -1,0 +1,1 @@
+ <link rel="icon" href="<?php echo base_url(); ?>assets/image/jctuicon.ico" type="image/x-icon">

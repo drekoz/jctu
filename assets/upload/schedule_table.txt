@@ -1,0 +1,87 @@
+{"programschedule":[
+    {"Day 1": [
+            {"Venue: Lobby 1st floor":[
+              {"1400 - 1600":"Registration"}
+            ]}, 
+            {"Venue":[
+              {"1800 - 2000":"Welcome Dinner<br>(Keynote and Committee)"}
+            ]}
+     ]},
+     {"Day 2": [
+            {"Venue: Auditorium 4st floor":[
+              {"0900 - 0930":"Opening Remarks"},
+              {"0930 - 1000":"Keynote Speaker 1"},
+              {"1000 - 1015":"Group photo"}
+            ]}, 
+            {"Venue: Lobby 4th floor":[
+              {"1015 - 1030":"Coffee Break"}
+            ]},
+            {"Venue: Lobby 4th floor":[
+              {"1015 - 1030":"Coffee Break"}
+            ]},
+            {"Venue: Auditorium 4th floor":[
+              {"1030 - 1230":"Session 1 (4 papers)"}
+            ]},
+            {"Venue: Room 1":[
+              {"1030 - 1230":"Session 2 (4 papers)"}
+            ]},
+            {"Venue: Room 2":[
+              {"1030 - 1230":"Session 3 (4 papers)"}
+            ]},
+            {"Venue: Room 3":[
+              {"1030 - 1230":"Session 4 (4 papers)"}
+            ]},
+            {"Venue: Room 4":[
+              {"1030 - 1230":"Session 5 (4 papers)"}
+            ]},
+            {"Venue: Lobby Ground floor":[
+              {"1230 - 1330":"Lunch"}
+            ]},
+            {"Venue: Auditorium 4th floor":[
+              {"1330 - 1400":"Keynote Speaker 2"}
+            ]},
+            {"Venue: Auditorium 4th floor":[
+              {"1400 - 1530":"Session 6 (3 papers)"}
+            ]},
+            {"Venue: Room 1":[
+              {"1400 - 1530":"Session 7 (3 papers)"}
+            ]},
+            {"Venue: Room 2":[
+              {"1400 - 1530":"Session 7 (3 papers)"}
+            ]},
+            {"Venue: Room 3":[
+              {"1400 - 1530":"Session 7 (3 papers)"}
+            ]},
+            {"Venue: Room 4":[
+              {"1400 - 1530":"Session 7 (3 papers)"}
+            ]},
+            {"Venue: Lobby 1st floor":[
+              {"1530 - 1545":"Coffee Break"}
+            ]},
+            {"Venue: Auditorium 4th floor":[
+              {"1545 - 1715":"Session 11 (3 papers)"}
+            ]},
+            {"Venue: Room 1":[
+              {"1545 - 1715":"Session 12 (3 papers)"}
+            ]},
+            {"Venue: Room 2":[
+              {"1545 - 1715":"Session 13 (3 papers)"}
+            ]},
+            {"Venue: Room 3":[
+              {"1545 - 1715":"Session 14 (3 papers)"}
+            ]},
+            {"Venue: Room 4":[
+              {"1545 - 1715":"Session 15 (3 papers)"}
+            ]},
+            {"Venue: Auditorium 4th floor":[
+              {"1730 - 1800":"Paper Awards Ceremony"}
+            ]}		
+     ]}
+],
+"importantdate":[
+    [
+     "Abstract Submission<br>Notification Of Acceptance<br>Full Paper Submission<br>Registration Deadline<br>Conference Dates",
+     "28th February, 2017<br>31st March, 2017<br>30th April, 2017<br>30th April, 2017<br>21st July, 2017"
+     ]
+]
+}
